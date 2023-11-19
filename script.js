@@ -27,6 +27,18 @@ const groceryList = [
     'Carta igienica'
 ];
 
+// creo un eventlist con il button per mostrare la lista
+document.getElementById('showListButton').addEventListener('click', function ()) {
+    
+}
+
+
+
+
+
+
+
+// try che stampa in console
 let i = 0;
 
 while (i < groceryList.length) {
