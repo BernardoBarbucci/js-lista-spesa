@@ -27,9 +27,9 @@ const groceryList = [
     'Carta igienica'
 ];
 
-let groceryElementsIndex = 0;
+let i = 0;
 
-while (groceryElementsIndex < groceryList.length) {
-    console.log((groceryElementsIndex + 1) + '. ' + groceryList[groceryElementsIndex]);
-    groceryElementsIndex++;
+while (i < groceryList.length) {
+    console.log((i + 1) + '. ' + groceryList[i]);
+    i++;
 }
