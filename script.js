@@ -28,9 +28,18 @@ const groceryList = [
 ];
 
 // creo un eventlist con il button per mostrare la lista
-document.getElementById('showListButton').addEventListener('click', function ()) {
-    
-}
+document.getElementById('showListButton').addEventListener('click', function () {
+    // stringa per la lista
+    let shoppingListLet = '';
+    // cycle while
+    let i = 0;
+
+    while (i < groceryList.length) {
+        shoppingListLet += '<p>' + groceryList[i] + '</p>';
+        i++;
+    }
+
+});
 
 
 
@@ -38,10 +47,4 @@ document.getElementById('showListButton').addEventListener('click', function ())
 
 
 
-// try che stampa in console
-let i = 0;
 
-while (i < groceryList.length) {
-    console.log((i + 1) + '. ' + groceryList[i]);
-    i++;
-}
