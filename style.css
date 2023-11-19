@@ -27,11 +27,17 @@
     font-size: 2.5rem;
     font-weight: bolder;
 }
-.row{
+.list-place{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
+    flex-direction: column;
+}
+#shoppinngList > p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #790000fa;
 }
 button{
     border: none;
@@ -42,6 +48,7 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+    margin-bottom: 1rem;
 }
 button:hover{
     background:linear-gradient(180deg,#ff7363, rgb(95, 23, 23));
