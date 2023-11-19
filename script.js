@@ -33,12 +33,15 @@ document.getElementById('showListButton').addEventListener('click', function () 
     let shoppingListLet = '';
     // cycle while
     let i = 0;
-
     while (i < groceryList.length) {
         shoppingListLet += '<p>' + groceryList[i] + '</p>';
         i++;
     }
 
+    // collego il div nel quale mostrare la lista 
+    const containerList = document.getElementById('shoppingList');
+    // collego la stringa al contenuto del div
+    containerList.innerHTML = shoppingListLet;
 });
 
 
